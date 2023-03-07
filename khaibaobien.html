@@ -4,25 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khaibaobien</title>
+    <title>boiso</title>
 </head>
 <body>
     <script>
-        var i=10;
-        var f=20.5;
-        var b= true;
-        var s="Pleiku";
-        var width = 5;
-        var height = 10;
-        document.write("i = " + i);
-        document.write("<br/>");
-        document.write("f = " + f);
-        document.write("<br/>");
-        document.write("b = " + b);
-        document.write("<br/>");
-        document.write("s = " + s);
-        document.write("<br/>");
-        document.write("area = "+width*height);
+        var a, b;
+         a = prompt("Enter a");
+         b = prompt("Enter b");
+         a = parseFloat(a);
+         b = parseFloat(b);
+        if (b%a==0){
+            alert("b la boi so cua a");
+        } else{
+            alert("b khong la boi so cua a");
+        }
     </script>        
 </body>
 </html>
